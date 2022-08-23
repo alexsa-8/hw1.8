@@ -20,7 +20,6 @@ public class Main {
         System.out.println("Введите год выпуска вашего телефона: ");
     }
     public static void installOption(int clientOS, int clientDeviceYear, int yearOfRelease ){
-        //int clientOS = 0, clientDeviceYear = 0, yearOfRelease = 2015;
         if (clientOS == 0 && clientDeviceYear < yearOfRelease) {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
         } else if (clientOS == 0 && clientDeviceYear >= yearOfRelease) {
